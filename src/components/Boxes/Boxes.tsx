@@ -58,7 +58,6 @@ function Boxes() {
 
 
       </div>
-    </div>
   );
 }
 
