@@ -1,4 +1,4 @@
-import sky from "../../assets/images/home-page-background.jpg"
+import sky from "@/assets/images/home-page-background.jpg"
 
 const AboutUs = () => {
   return (
