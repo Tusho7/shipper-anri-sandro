@@ -1,4 +1,4 @@
-import sky from "@/assets/images/home-page-background.jpg"
+import delivery from "../..//assets/images/Rectangle 17.jpg"
 
 const AboutUs = () => {
   return (
@@ -12,10 +12,10 @@ const AboutUs = () => {
         </div>
         <div className="space-y-8  py-[69px]">
             <div className="flex gap-[17px]">
-                <img width={344} src={sky} className="rounded-18" alt="sky" />
-                <img  width={344} src={sky} className="rounded-18" alt="sky" />
+                <img width={344} src={delivery} className="rounded-18" alt="delivery" />
+                <img  width={344} src={delivery} className="rounded-18" alt="delivery" />
             </div>
-            <img width={698} height={269} src={sky} alt="sky" className="rounded-18" />
+            <img width={698} height={269} src={delivery} alt="delivery" className="rounded-18" />
         </div>
     </div>
   )
