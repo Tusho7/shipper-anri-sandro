@@ -2,7 +2,7 @@ import sky from "../../assets/images/home-page-background.jpg"
 
 const AboutUs = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-between px-[45px]">
+    <div className="flex h-screen w-screen items-center justify-between px-[45px] 2xl:px-[200px]">
         <div className="w-[575px] py-[123px]">
           <h2 className="text-[55px] font-medium">About Us</h2> 
           <div className="space-y-8">
