@@ -7,3 +7,7 @@ body {
     font-family: 'Noto Sans', 'Livvic';
     overflow-x: hidden;
 }
+
+.landingPageSection {
+    background-image: url('./assets/images/home-page-background.jpg');
+}

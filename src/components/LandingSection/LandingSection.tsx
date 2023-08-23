@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar"
 
 const LandingSection = () => {
   return (
-    <div className="bg-home h-screen bg-cover bg-no-repeat">
+    <div className="h-screen bg-cover bg-no-repeat landingPageSection">
         <Navbar />
         <div className="flex flex-col items-center mt-[102px] text-7xl">
             <h1 className="tracking-[9.45px]">Welcome To ShipCo</h1>
