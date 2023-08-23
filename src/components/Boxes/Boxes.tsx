@@ -1,5 +1,5 @@
 import YellowRectangle from "../../assets/icons/yellow_rectangle.png";
-import Payment from "../../assets/icons/payment.svg";
+import Payment from "../../assets/icons/Payment.png";
 import Vector from "../../assets/icons/Vector.png";
 import Repack from "../../assets/icons/Repack.png";
 import Delivery from "../../assets/icons/Delivery.png";
@@ -15,7 +15,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p className="font-normal text-base leading-[27.24px]">Payment</p>
+            <p className="font-normal text-base leading-[27.24px] text-[#804300]">Payment</p>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p className="font-normal text-base leading-[27.24px]">Calculator</p>
+            <p className="font-normal text-base leading-[27.24px] text-[#804300]">Calculator</p>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p className="font-normal text-base leading-[27.24px]">Repack</p>
+            <p className="font-normal text-base leading-[27.24px] text-[#804300]">Repack</p>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p className="font-normal text-base leading-[27.24px]">Delivery</p>
+            <p className="font-normal text-base leading-[27.24px] text-[#804300]">Delivery</p>
           </div>
         </div>
       </div>
