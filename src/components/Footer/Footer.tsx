@@ -31,7 +31,7 @@ function Footer() {
         <div className='flex justify-center items-center gap-[21px] pt-[46px] pb-[30px]'>
     <img src={Facebook} />
     <img src={Youtube} />
-    <img src={Instagram} />
+    <img src={Instagram}  />
         </div>
 
         <div className='flex justify-center items-center gap-[12px] text-white pb-[26px]'>
