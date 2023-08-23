@@ -15,8 +15,8 @@ const Navbar = () => {
         <li>Contact Us</li>
       </div>
       <div className="flex gap-4">
-        <Button boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" text="Log in"  bgColor="black" width="154px" height="48px" borderRadius="24px"/>
-        <Button boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.23)" text="Sign up" width="154px" height="48px" bgColor="white"  borderRadius="24px"/>
+        <Button boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" text="Log in"  bgColor="black" width="154px" height="48px" borderRadius="24px" border="none"/>
+        <Button boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.23)" color="white" text="Sign up" width="154px"  height="48px" bgColor="transparent"  borderRadius="24px" border="2px solid white"/>
       </div>
     </nav>
   )
