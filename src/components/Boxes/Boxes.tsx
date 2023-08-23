@@ -15,7 +15,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p>Payment</p>
+            <p className="font-normal text-base leading-[27.24px]">Payment</p>
           </div>
         </div>
 
@@ -25,7 +25,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p>Calculator</p>
+            <p className="font-normal text-base leading-[27.24px]">Calculator</p>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p>Repack</p>
+            <p className="font-normal text-base leading-[27.24px]">Repack</p>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ function Boxes() {
           </div>
 
           <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center shadow-custom">
-            <p>Delivery</p>
+            <p className="font-normal text-base leading-[27.24px]">Delivery</p>
           </div>
         </div>
       </div>
