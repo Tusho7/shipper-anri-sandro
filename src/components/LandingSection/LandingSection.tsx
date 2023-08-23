@@ -10,8 +10,8 @@ const LandingSection = () => {
             <p className="text-3xl mt-20 text-center">Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel.</p>
         </div>
         <div className="flex items-center justify-center gap-[18px] mt-[79px]">
-          <Button width="256px" height="67px" bgColor="black" text="Register" borderRadius="39px" />
-          <Button width="256px" height="67px" text="Services" borderRadius="39px"/>
+          <Button width="256px" height="67px" bgColor="black" text="Register" borderRadius="39px" boxShadow="0px 4px 10px 0px rgba(0, 0, 0, 0.25)" />
+          <Button width="256px" height="67px" text="Services" borderRadius="39px" boxShadow="0px 4px 10px 0px rgba(0, 0, 0, 0.25)"/>
         </div>
     </div>
   )
