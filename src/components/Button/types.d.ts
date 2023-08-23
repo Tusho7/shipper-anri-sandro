@@ -4,4 +4,5 @@ export interface ButtonProps {
     width: string;
     height: string;
     borderRadius: string;
+    boxShadow?: string;
 }

@@ -43,7 +43,8 @@ function Boxes() {
         </div>
 
         <div className="flex flex-col gap-6 justify-center items-center">
-          <div className="rounded-full bg-white p-8 flex justify-center items-center shadow-custom">
+
+          
             <img src={Delivery} className="w-[99px] h-[95px]" />
           </div>
 
