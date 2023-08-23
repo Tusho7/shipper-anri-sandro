@@ -1,6 +1,24 @@
+import ShipperLogo from "../../assets/icons/Logo.png"
+import Button from "../Button/Button"
+
 const Navbar = () => {
   return (
-    <nav>Navbar</nav>
+    <nav className="bg-transparent flex  items-center justify-between px-14 mt-[35px] font-semibold">
+      <div>
+        <img src={ShipperLogo} alt="" />
+      </div>
+      <div className="flex gap-8 list-none text-2xl">
+        <li className="underline">Home</li>
+        <li>Shops</li>
+        <li>USA Shops</li>
+        <li>News</li>
+        <li>Contact Us</li>
+      </div>
+      <div className="flex gap-4">
+        <Button text="Log in"  bgColor="black"/>
+        <Button text="Sign up" />
+      </div>
+    </nav>
   )
 }
 
