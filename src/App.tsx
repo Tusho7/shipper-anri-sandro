@@ -1,10 +1,11 @@
 import './App.css'
+import Boxes from './components/Boxes/Boxes'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-green-500'>hey</h1>
+      <Boxes/>
     </>
   )
 }
