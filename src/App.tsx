@@ -1,3 +1,4 @@
+import AboutUs from './components/AboutUsSection/AboutUs'
 import LandingSection from './components/LandingSection/LandingSection'
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
   return (
     <>
       <LandingSection />
+      <AboutUs />
     </>
   )
 }

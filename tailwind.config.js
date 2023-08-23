@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundImage: {
         'home': "url('./src/assets/images/home-page-background.jpg')"
+      },
+      borderRadius: {
+        '18': '1.125rem'
       }
     },
   },
