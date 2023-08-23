@@ -3,7 +3,7 @@ import Button from "../Button/Button"
 
 const Navbar = () => {
   return (
-    <nav className="bg-transparent flex  items-center justify-between px-14 mt-[35px] font-semibold">
+    <nav className="bg-transparent flex  items-center justify-between px-14 pt-[35px] font-semibold">
       <div>
         <img src={ShipperLogo} alt="" />
       </div>
@@ -15,8 +15,8 @@ const Navbar = () => {
         <li>Contact Us</li>
       </div>
       <div className="flex gap-4">
-        <Button text="Log in"  bgColor="black"/>
-        <Button text="Sign up" />
+        <Button text="Log in"  bgColor="black" width="154px" height="48px" borderRadius="24px"/>
+        <Button text="Sign up" width="154px" height="48px"  borderRadius="24px"/>
       </div>
     </nav>
   )
