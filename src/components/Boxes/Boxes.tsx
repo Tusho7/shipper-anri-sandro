@@ -7,9 +7,8 @@ import Delivery from "../../assets/icons/Delivery.png";
 function Boxes() {
   return (
     <div className="relative flex justify-center items-center mx-auto">
-      <img src={Rectangle} className="w-full max-w-screen-3xl mx-auto"/>
+      <img src={Rectangle} className="w-full max-w-screen-3xl mx-auto" />
       <div className="absolute flex justify-center items-center gap-32">
-
         <div className="flex flex-col gap-6 justify-center items-center">
           <div className="rounded-full bg-white p-8 flex justify-center items-center shadow-custom">
             <img src={Payment} />
@@ -20,7 +19,6 @@ function Boxes() {
           </div>
         </div>
 
-
         <div className="flex flex-col gap-6 justify-center items-center">
           <div className="rounded-full bg-white p-8 flex justify-center items-center shadow-custom">
             <img src={Vector} />
@@ -30,7 +28,6 @@ function Boxes() {
             <p>Calculator</p>
           </div>
         </div>
-
 
         <div className="flex flex-col gap-6 justify-center items-center">
           <div className="rounded-full bg-white p-8 flex justify-center items-center shadow-custom">
@@ -43,8 +40,7 @@ function Boxes() {
         </div>
 
         <div className="flex flex-col gap-6 justify-center items-center">
-
-          
+          <div className="rounded-full bg-white p-8 flex justify-center items-center shadow-custom">
             <img src={Delivery} className="w-[99px] h-[95px]" />
           </div>
 
@@ -52,12 +48,8 @@ function Boxes() {
             <p>Delivery</p>
           </div>
         </div>
-
-
-        
-
-
       </div>
+    </div>
   );
 }
 
