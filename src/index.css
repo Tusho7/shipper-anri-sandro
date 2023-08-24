@@ -12,6 +12,9 @@ body {
 
 .landingPageSection {
     background-image: url('./assets/images/delivery.jpg');
+
+}
+
 @media (min-width: 375px) {
     .boxes-desktop{
         display: none;
@@ -26,7 +29,6 @@ body {
         display: none;
     }
 }
-
 @media (min-width: 1440px) {
     .boxes-mobile{
         display: none;
@@ -40,3 +42,4 @@ body {
     .footer-desktop{
         display: block;
     }
+}
