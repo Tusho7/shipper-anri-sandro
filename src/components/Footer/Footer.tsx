@@ -12,16 +12,16 @@ function Footer() {
         </div>
 
         <div className="flex justify-center items-center gap-20 text-white pt-[52px] pb-[30px]">
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Our Services
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Help
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             About Us
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[6%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Contact US
           </p>
         </div>
@@ -29,16 +29,16 @@ function Footer() {
         <div className="w-full h-px bg-white"></div>
 
         <div className="flex justify-center items-center gap-20 text-white pt-[52px] pb-[30px]">
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Plans & Pricing
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             How it works
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             What is ShipCo
           </p>
-          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%]">
+          <p className="font-normal text-[35px] leading-[47.67px] tracking-[1.5%] transition duration-300 transform hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Support@shipper.com
           </p>
         </div>
@@ -50,11 +50,11 @@ function Footer() {
         </div>
 
         <div className="flex justify-center items-center gap-[12px] text-white pb-[26px]">
-          <p className="font-normal text-base leading-[23.86px]">
+          <p className="font-normal text-base leading-[23.86px] transition duration-300 hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Privacy Policy
           </p>
           <p className="font-normal text-base leading-[23.86px]">|</p>
-          <p className="font-normal text-base leading-[23.86px]">
+          <p className="font-normal text-base leading-[23.86px] transition duration-300 hover:scale-110 hover:text-[#804300] hover:cursor-pointer">
             Terms & Conditions
           </p>
         </div>
