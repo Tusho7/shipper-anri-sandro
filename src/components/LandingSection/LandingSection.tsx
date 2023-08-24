@@ -6,7 +6,7 @@ const LandingSection = () => {
     <div className="w-screen h-screen bg-cover landingPageSection min-w-full	">
         <Navbar />
         <div className="flex flex-col items-center mt-[102px]  text-white">
-            <h1 className="tracking-[9.45px] lg:text-7xl text-3xl text-center">Welcome To ShipCo</h1>
+            <h1 className="tracking-[9.45px] lg:text-7xl text-3xl md:text-5xl text-center">Welcome To ShipCo</h1>
             <p className="mt-12 text-center lg:w-[794px] text-md lg:text-3xl break-words">Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel.</p>
         </div>
         <div className="flex items-center justify-center lg:gap-[18px] mt-[79px]">

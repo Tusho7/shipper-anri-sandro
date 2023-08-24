@@ -12,8 +12,6 @@ body {
 
 .landingPageSection {
     background-image: url('./assets/images/delivery.jpg');
-    width: 100%;
-}
 @media (min-width: 375px) {
     .boxes-desktop{
         display: none;
@@ -42,4 +40,3 @@ body {
     .footer-desktop{
         display: block;
     }
-}
