@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div className="lg:w-[575px] lg:py-[123px] py-5">
           <h2 className="text-[55px] font-medium mb-8 text-center lg:text-left">About Us</h2> 
           <div className="space-y-8 break-words md:text-left lg:text-left">
-            <p className="lg:text-3xl text-xs">Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel.</p>
+            <p className="lg:text-3xl text-xs">Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel. Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel</p>
             <p className="lg:text-3xl text-xs">Lorem ipsum dolor sit amet consectetur. Lobortis venenatis lorem nulla senectus felis sit enim facilisi vel.</p>
           </div>
         </div>

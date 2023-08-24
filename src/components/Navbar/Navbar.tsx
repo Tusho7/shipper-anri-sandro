@@ -9,7 +9,7 @@ const Navbar = () => {
       <div>
         <img src={ShipperLogo} alt="shipper logo"  className="w-2/3"/>
       </div>
-      <div className="lg:flex lg:gap-8 list-none text-2xl text-white hidden">
+      <div className="lg:flex lg:gap-8 list-none lg:text-lg xl:text-2xl text-white hidden">
         <li className="underline">Home</li>
         <li>Shops</li>
         <li>USA Shops</li>
@@ -21,8 +21,8 @@ const Navbar = () => {
       </div>
       <NavbarMenu />
       <div className="lg:flex gap-4  hidden ">
-        <Button boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" text="Log in"  bgColor="black" width="lg:w-[154px]" height="48px" borderRadius="24px" border="none"/>
-        <Button boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.23)" color="white" text="Sign up" width="lg:w-[154px]"  height="48px" bgColor="transparent"  borderRadius="24px" border="2px solid white"/>
+        <Button boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" text="Log in"  bgColor="black" width="lg:w-[110px] xl:w-[154px]" height="48px" borderRadius="24px" border="none"/>
+        <Button boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.23)" color="white" text="Sign up" width="lg:w-[110px] xl:w-[154px]"  height="48px" bgColor="transparent"  borderRadius="24px" border="2px solid white"/>
       </div>
     </nav>
   )
