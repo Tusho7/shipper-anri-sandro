@@ -8,9 +8,9 @@ function App() {
 
   return (
     <>
-      <LandingSection />
-      <AboutUs />
-      <Boxes/>
+      {/* <LandingSection /> */}
+      {/* <AboutUs /> */}
+      {/* <Boxes/> */}
       <Footer />
     </>
   )
