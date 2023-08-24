@@ -5,7 +5,7 @@ import NavbarMenu from '../NavbarMenu/NavbarMenu';
 const Navbar = () => {
 
   return (
-    <nav className="bg-transparent flex  items-center justify-between px-2 lg:px-14 pt-[35px] font-semibold">
+    <nav className="bg-transparent flex  items-center justify-between px-7 lg:px-14 pt-[35px] font-semibold">
       <div>
         <img src={ShipperLogo} alt="shipper logo"  className="w-2/3"/>
       </div>
