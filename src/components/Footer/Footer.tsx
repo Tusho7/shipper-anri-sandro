@@ -65,6 +65,7 @@ function Footer() {
           <img
             src={FooterLogo}
             alt="Footer Logo"
+            className="mt-6 md:mt-20"
           />
         </div>
 
