@@ -13,42 +13,42 @@ function Boxes() {
 
         <div className="absolute flex justify-center items-center gap-32 lg:mt-64">
           <div className="flex flex-col gap-6 justify-center items-center">
-            <div className="rounded-full bg-white p-8 flex justify-center items-center">
-              <img src={Payment} />
+            <div className="rounded-full bg-white p-8 flex justify-center items-center hover:animate-pulse hover:cursor-pointer">
+              <img src={Payment} className="hover:animate-spin"/>
             </div>
 
             <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center">
-              <p>Payment</p>
+              <p className="hover:scale-[2] hover:text-[#804300] hover:cursor-pointer transition-all">Payment</p>
             </div>
           </div>
 
           <div className="flex flex-col gap-6 justify-center items-center">
-            <div className="rounded-full bg-white p-8 flex justify-center items-center">
-              <img src={Vector} />
+            <div className="rounded-full bg-white p-8 flex justify-center items-center hover:animate-pulse hover:cursor-pointer">
+              <img src={Vector} className="hover:animate-spin" />
             </div>
 
             <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center">
-              <p>Calculator</p>
+              <p className="hover:scale-[2] hover:text-[#804300] hover:cursor-pointer transition-all">Calculator</p>
             </div>
           </div>
 
           <div className="flex flex-col gap-6 justify-center items-center">
-            <div className="rounded-full bg-white p-8 flex justify-center items-center">
-              <img src={Repack} />
+            <div className="rounded-full bg-white p-8 flex justify-center items-center hover:animate-pulse hover:cursor-pointer">
+              <img src={Repack} className="hover:animate-spin" />
             </div>
 
             <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center">
-              <p>Repack</p>
+              <p className="hover:scale-[2] hover:text-[#804300] hover:cursor-pointer transition-all">Repack</p>
             </div>
           </div>
 
           <div className="flex flex-col gap-6 justify-center items-center">
-            <div className="rounded-full bg-white p-8 flex justify-center items-center">
-              <img src={Delivery} />
+            <div className="rounded-full bg-white p-8 flex justify-center items-center hover:animate-pulse hover:cursor-pointer">
+              <img src={Delivery} className="hover:animate-spin w-[99px] h-[95px]"/>
             </div>
 
             <div className="w-[174px] h-[49px] bg-white rounded-full text-center flex justify-center items-center">
-              <p>Delivery</p>
+              <p className="hover:scale-[2] hover:text-[#804300] hover:cursor-pointer transition-all">Delivery</p>
             </div>
           </div>
         </div>
