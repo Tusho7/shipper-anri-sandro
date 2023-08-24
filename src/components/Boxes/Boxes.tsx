@@ -8,6 +8,8 @@ import Rectangle from "../../assets/icons/Rectangle_options.png";
 function Boxes() {
   return (
     <>
+    <div className="relative flex justify-center items-center boxes-desktop w-screen">
+        <img src={Rectangle} className="w-full"/>
 
         <div className="absolute flex justify-center items-center gap-32">
           <div className="flex flex-col gap-6 justify-center items-center">
