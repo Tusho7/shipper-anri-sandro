@@ -1,4 +1,4 @@
-import delivery from "../..//assets/images/Rectangle 17.jpg"
+import delivery from "../../assets/images/delivery2.jpg"
 
 const AboutUs = () => {
   return (
