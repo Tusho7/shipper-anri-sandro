@@ -64,7 +64,7 @@ function Footer() {
         <div className="flex justify-center items-center pt-8">
           <img
             src={FooterLogo}
-            className="w-40 h-auto pb-8 md:w-52"
+            className="w-40 h-auto pb-8 mt-8 md:w-52 md:mt-20"
             alt="Footer Logo"
           />
         </div>
