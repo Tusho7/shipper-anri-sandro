@@ -18,6 +18,12 @@ body {
     .boxes-mobile{
         display: block;
     }
+    .footer-mobile{
+        display: block;
+    }
+    .footer-desktop{
+        display: none;
+    }
 }
 
 @media (min-width: 1440px) {
@@ -26,5 +32,11 @@ body {
     }
     .boxes-desktop{
         display: flex;
+    }
+    .footer-mobile{
+        display: none;
+    }
+    .footer-desktop{
+        display: block;
     }
 }
