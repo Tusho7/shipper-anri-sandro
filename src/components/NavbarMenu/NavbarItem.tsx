@@ -8,16 +8,16 @@ const NavbarItem = () => {
       opacity: 1,
       transition: {
         delayChildren: 0.2,
-        staggerChildren: 0.07
-      }
+        staggerChildren: 0.07,
+      },
     },
     hidden: {
       opacity: 0,
       transition: {
         staggerChildren: 0.05,
-        staggerDirection: -1
-      }
-    }
+        staggerDirection: -1,
+      },
+    },
   };
 
   const navItem = {
@@ -25,16 +25,16 @@ const NavbarItem = () => {
       y: 0,
       opacity: 1,
       transition: {
-        y: { stiffness: 1000, velocity: -100 }
-      }
+        y: { stiffness: 1000, velocity: -100 },
+      },
     },
     hidden: {
       y: 50,
       opacity: 0,
       transition: {
-        y: { stiffness: 1000, velocity: -100 }
-      }
-    }
+        y: { stiffness: 1000, velocity: -100 },
+      },
+    },
   };
 
   return (
@@ -46,7 +46,7 @@ const NavbarItem = () => {
         exit="hidden"
         variants={navList}
       >
-        {items.map(item => (
+        {items.map((item) => (
           <motion.li className="nav-item" variants={navItem} key={item}>
             <p>{item}</p>
           </motion.li>

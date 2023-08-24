@@ -62,11 +62,7 @@ function Footer() {
 
       <div className="bg-black footer-mobile">
         <div className="flex justify-center items-center pt-8">
-          <img
-            src={FooterLogo}
-            alt="Footer Logo"
-            className="mt-6 md:mt-20"
-          />
+          <img src={FooterLogo} alt="Footer Logo" className="mt-6 md:mt-20" />
         </div>
 
         <div className="flex flex-col justify-center items-center gap-4 text-white pt-6 pb-4 md:flex-row md:items-baseline md:gap-8 md:pb-10">

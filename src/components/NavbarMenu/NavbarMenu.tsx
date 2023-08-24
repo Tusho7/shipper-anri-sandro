@@ -1,9 +1,9 @@
-import  { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import NavbarItem from "./NavbarItem";
 
-import {MdOutlineClose} from "react-icons/md"
-import {GiHamburgerMenu} from "react-icons/gi"
+import { MdOutlineClose } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavbarMenu = () => {
   const [isToggled, setToggle] = useState(false);
@@ -14,23 +14,30 @@ const NavbarMenu = () => {
       opacity: 1,
       transition: {
         x: { velocity: 100 },
-        duration: 0.3
-      }
+        duration: 0.3,
+      },
     },
     hidden: {
       //x: -250,
       opacity: 0,
       transition: {
         x: { velocity: 100 },
-        duration: 0.3
-      }
-    }
+        duration: 0.3,
+      },
+    },
   };
 
   return (
     <div className="lg:hidden">
-      <button className="btn absolute right-5 top-10" onClick={() => setToggle(!isToggled)}>
-            {isToggled ? <MdOutlineClose size={20}/> : <GiHamburgerMenu size={20}/>}
+      <button
+        className="btn absolute right-5 top-10"
+        onClick={() => setToggle(!isToggled)}
+      >
+        {isToggled ? (
+          <MdOutlineClose size={20} />
+        ) : (
+          <GiHamburgerMenu size={20} />
+        )}
       </button>
       <AnimatePresence>
         {isToggled && (
@@ -41,7 +48,7 @@ const NavbarMenu = () => {
             exit="hidden"
             variants={navContainer}
           >
-            <NavbarItem  />
+            <NavbarItem />
           </motion.div>
         )}
       </AnimatePresence>
