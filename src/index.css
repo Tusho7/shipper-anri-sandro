@@ -11,3 +11,20 @@ body {
 .landingPageSection {
     background-image: url('./assets/images/delivery.jpg');
 }
+@media (min-width: 375px) {
+    .boxes-desktop{
+        display: none;
+    }
+    .boxes-mobile{
+        display: block;
+    }
+}
+
+@media (min-width: 1440px) {
+    .boxes-mobile{
+        display: none;
+    }
+    .boxes-desktop{
+        display: flex;
+    }
+}
