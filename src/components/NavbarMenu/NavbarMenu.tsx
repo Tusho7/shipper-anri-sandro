@@ -1,6 +1,6 @@
 import  { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import NavbarItem from "./NavbarItem";
+import NavbarItems from "./NavbarItems";
 
 import {MdOutlineClose} from "react-icons/md"
 import {GiHamburgerMenu} from "react-icons/gi"
@@ -41,7 +41,7 @@ const NavbarMenu = () => {
             exit="hidden"
             variants={navContainer}
           >
-            <NavbarItem  />
+            <NavbarItems  />
           </motion.div>
         )}
       </AnimatePresence>

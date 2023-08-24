@@ -80,3 +80,46 @@ body {
     margin-block-end: 1px;
   }
   
+
+li {
+    margin-bottom: 10px;
+}
+
+.navbar-link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.navbar-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

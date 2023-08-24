@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-const NavbarItem = () => {
-  const items = ["Home", "Products", "Services", "About"];
+const NavbarItems = () => {
+  const items = ["Home", "Shops", "USA Shops", "News", "Contact Us"];
 
   const navList = {
     visible: {
@@ -48,7 +48,7 @@ const NavbarItem = () => {
       >
         {items.map(item => (
           <motion.li className="nav-item" variants={navItem} key={item}>
-            <p>{item}</p>
+            {item}
           </motion.li>
         ))}
       </motion.ul>
@@ -56,4 +56,4 @@ const NavbarItem = () => {
   );
 };
 
-export default NavbarItem;
+export default NavbarItems;
