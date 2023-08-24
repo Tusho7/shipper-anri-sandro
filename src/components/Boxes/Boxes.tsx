@@ -11,7 +11,7 @@ function Boxes() {
     <div className="relative flex justify-center items-center boxes-desktop w-screen">
         <img src={Rectangle} className="w-full"/>
 
-        <div className="absolute flex justify-center items-center gap-32">
+        <div className="absolute flex justify-center items-center gap-32 lg:mt-64">
           <div className="flex flex-col gap-6 justify-center items-center">
             <div className="rounded-full bg-white p-8 flex justify-center items-center">
               <img src={Payment} />
