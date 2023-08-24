@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const NavbarItem = () => {
+const NavbarItems = () => {
   const items = ["Home", "Shops", "USA Shops", "News", "Contact Us"];
 
   const navList = {
@@ -47,8 +47,8 @@ const NavbarItem = () => {
         variants={navList}
       >
         {items.map(item => (
-          <motion.li className="nav-item  hover:border-b-2 border-black" variants={navItem} key={item}>
-            <p>{item}</p>
+          <motion.li className="nav-item" variants={navItem} key={item}>
+            {item}
           </motion.li>
         ))}
       </motion.ul>
@@ -56,4 +56,4 @@ const NavbarItem = () => {
   );
 };
 
-export default NavbarItem;
+export default NavbarItems;
