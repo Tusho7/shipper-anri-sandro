@@ -1,7 +1,6 @@
-import React from "react";
 import { motion } from "framer-motion";
 
-const NavbarItem: React.FC<any> = ({ isToggled }) => {
+const NavbarItem = () => {
   const items = ["Home", "Products", "Services", "About"];
 
   const navList = {

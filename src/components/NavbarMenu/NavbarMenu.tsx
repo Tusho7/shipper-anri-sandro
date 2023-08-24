@@ -29,7 +29,7 @@ const NavbarMenu = () => {
 
   return (
     <div className="lg:hidden">
-      <button className="btn absolute right-2" onClick={() => setToggle(!isToggled)}>
+      <button className="btn absolute right-5 top-10" onClick={() => setToggle(!isToggled)}>
             {isToggled ? <MdOutlineClose size={20}/> : <GiHamburgerMenu size={20}/>}
       </button>
       <AnimatePresence>
@@ -41,7 +41,7 @@ const NavbarMenu = () => {
             exit="hidden"
             variants={navContainer}
           >
-            <NavbarItem isToggled={isToggled} />
+            <NavbarItem  />
           </motion.div>
         )}
       </AnimatePresence>
