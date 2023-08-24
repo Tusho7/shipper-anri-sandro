@@ -1,5 +1,6 @@
 import ShipperLogo from "../../assets/icons/Logo.png"
 import Button from "../Button/Button"
+import NavbarMenu from '../NavbarMenu/NavbarMenu';
 
 const Navbar = () => {
 
@@ -15,6 +16,10 @@ const Navbar = () => {
         <li>News</li>
         <li>Contact Us</li>
       </div>
+      <div>
+
+      </div>
+      <NavbarMenu />
       <div className="lg:flex gap-4  hidden ">
         <Button boxShadow="0px 4px 4px 0px rgba(0, 0, 0, 0.25)" text="Log in"  bgColor="black" width="lg:w-[154px]" height="48px" borderRadius="24px" border="none"/>
         <Button boxShadow="0px 5px 10px 0px rgba(0, 0, 0, 0.23)" color="white" text="Sign up" width="lg:w-[154px]"  height="48px" bgColor="transparent"  borderRadius="24px" border="2px solid white"/>
