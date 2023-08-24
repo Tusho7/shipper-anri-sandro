@@ -12,8 +12,8 @@ const AboutUs = () => {
         </div>
         <div className="lg:space-y-8 space-y-4 lg:py-[69px]">
             <div className="flex lg:gap-[17px] justify-between">
-                <img  src={delivery} className="rounded-18 lg:w-[344px] w-[140px] md:w-[300px]" alt="delivery" />
-                <img   src={delivery} className="rounded-18  lg:w-[344px] w-[140px] md:w-[300px] " alt="delivery" />
+                <img  src={delivery} className="rounded-18  w-[45%] md:w-[300px] lg:w-[344px] " alt="delivery" />
+                <img   src={delivery} className="rounded-18 w-[45%]  md:w-[300px] lg:w-[344px] " alt="delivery" />
             </div>
             <img src={delivery} alt="delivery" className="rounded-18 md:w-full  lg:w-[698px] lg:h-[269px] w-full" />
         </div>
@@ -22,3 +22,4 @@ const AboutUs = () => {
 }
 
 export default AboutUs
+
