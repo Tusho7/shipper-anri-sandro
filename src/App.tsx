@@ -10,8 +10,8 @@ function App() {
     <>
       <LandingSection />
       <AboutUs />
-      {/* <Boxes/> */}
-      {/* <Footer /> */}
+      <Boxes/>
+      <Footer />
     </>
   )
 }
