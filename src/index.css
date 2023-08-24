@@ -123,3 +123,9 @@ li {
     width: 100%;
     transition: width .3s;
 }
+
+
+.description {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
